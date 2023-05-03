@@ -12,7 +12,9 @@
     width: 100px;
     object-fit: contain;
     margin: 0 20px;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+   
  }
  
  .header__search {
@@ -32,7 +34,7 @@
  .header__searchIcon {
     padding: 5px;
     height: 22px !important;
-    background-color: coral;
+    background-color:red
  }
 
  .header__optionLineOne {

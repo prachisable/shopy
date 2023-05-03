@@ -1,0 +1,72 @@
+[debug] [2023-04-28T08:08:45.414Z] ----------------------------------------------------------------------
+[debug] [2023-04-28T08:08:45.419Z] Command:       D:\desk\download\node.exe C:\Users\My\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-04-28T08:08:45.421Z] CLI Version:   11.28.0
+[debug] [2023-04-28T08:08:45.422Z] Platform:      win32
+[debug] [2023-04-28T08:08:45.422Z] Node Version:  v18.12.0
+[debug] [2023-04-28T08:08:45.424Z] Time:          Fri Apr 28 2023 13:38:45 GMT+0530 (India Standard Time)
+[debug] [2023-04-28T08:08:45.425Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-28T08:08:45.608Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-28T08:08:45.609Z] > authorizing via signed-in user (sabaleprachi16@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\react_pro\shopy
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-04-28T08:09:30.947Z] Using project from CLI flag: shopy-8817e
+[debug] [2023-04-28T08:09:30.979Z] > refreshing access token with scopes: []
+[debug] [2023-04-28T08:09:30.985Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-04-28T08:09:30.986Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-28T08:09:39.248Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-04-28T08:09:39.248Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-28T08:09:39.418Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shopy-8817e [none]
+[debug] [2023-04-28T08:09:40.627Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shopy-8817e 200
+[debug] [2023-04-28T08:09:40.628Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shopy-8817e {"projectId":"shopy-8817e","projectNumber":"1020960547339","displayName":"shopy","name":"projects/shopy-8817e","resources":{"hostingSite":"shopy-8817e"},"state":"ACTIVE","etag":"1_5bebfb05-1546-4600-9ecf-fb2d7181d7f4"}
+[info] i  Using project shopy-8817e (shopy) 
+[info] 
+=== Functions Setup
+[debug] [2023-04-28T08:09:40.726Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-28T08:09:40.728Z] > authorizing via signed-in user (sabaleprachi16@gmail.com)
+[debug] [2023-04-28T08:09:40.729Z] [iam] checking project shopy-8817e for permissions ["firebase.projects.get"]
+[debug] [2023-04-28T08:09:40.731Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/shopy-8817e:testIamPermissions [none]
+[debug] [2023-04-28T08:09:40.732Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/shopy-8817e:testIamPermissions x-goog-quota-user=projects/shopy-8817e
+[debug] [2023-04-28T08:09:40.732Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/shopy-8817e:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-04-28T08:09:42.871Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/shopy-8817e:testIamPermissions 200
+[debug] [2023-04-28T08:09:42.871Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/shopy-8817e:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-04-28T08:09:42.873Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/shopy-8817e/services/cloudfunctions.googleapis.com [none]
+[debug] [2023-04-28T08:09:42.874Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/shopy-8817e/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/shopy-8817e
+[debug] [2023-04-28T08:09:42.882Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/shopy-8817e/services/runtimeconfig.googleapis.com [none]
+[debug] [2023-04-28T08:09:42.883Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/shopy-8817e/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/shopy-8817e
+[debug] [2023-04-28T08:09:45.063Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/shopy-8817e/services/runtimeconfig.googleapis.com 200
+[debug] [2023-04-28T08:09:45.063Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/shopy-8817e/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2023-04-28T08:09:45.087Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/shopy-8817e/services/cloudfunctions.googleapis.com 200
+[debug] [2023-04-28T08:09:45.087Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/shopy-8817e/services/cloudfunctions.googleapis.com [omitted]
+[info] 
+Detected existing codebase(s): default
+
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+

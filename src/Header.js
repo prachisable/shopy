@@ -20,7 +20,7 @@ function Header() {
   return (
     <div className='header'>
         <Link to='/'>
-        <img className='header__logo' src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt='' />
+        <img className='header__logo' src="https://www.shopyvision.com/wp-content/uploads/2020/11/Shopyvision-LOGO-PNG.png" alt='' />
         </Link>
         
         
@@ -31,9 +31,10 @@ function Header() {
         </div>
 
         <div className='header__nav'>
-        <Link to ={user && '/login'}>
+        <Link to ={!user && '/login'}>
             <div onClick={handleAuthentication} className='header__option'>
-                <span className='header__optionLineOne'>Hello User</span>
+            {/* user?.email ||"" */}
+                <span className='header__optionLineOne'>Hello {!user ? 'User' : user.email}</span>
                 <span className='header__optionLineTwo'>{user ? 'Sign Out' : 'Sign In'}</span>
             </div>
         </Link>

@@ -41,7 +41,7 @@ function Login() {
     <div className='login'>
     <Link to= '/'>
         <img  className='login__logo' 
-         src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png' alt=''
+         src='https://www.shopyvision.com/wp-content/uploads/2020/11/Shopyvision-LOGO-PNG.png' alt=''
         />
     </Link>
 
@@ -59,7 +59,7 @@ function Login() {
                 </button>
             </form>
             <p>
-                By signing-in you agree to Amazon's Fake 
+                By signing-in you agree to shopy's Fake 
                 Clone Condition of use & Sale. Please 
                 see our Privacy Notice, our Cookies Notice 
                 and our Internet-Based Ads 
@@ -67,7 +67,7 @@ function Login() {
             </p>
 
             <button onClick={register} className='login__registerButton'>
-                Create your Amazon Account
+                Create your Shopy Account
             </button>
         </div>
     </div>

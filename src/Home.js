@@ -9,7 +9,7 @@ function Home() {
         <div className="home__container">
             <img 
                 className='home__image'
-                src='https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg'
+                src='https://maxima.lbcdn.io/uploads/2020/05/AdobeStock_209180436-1500x600.jpeg'
                 alt=''
             />
             <div className="home__row">
@@ -59,6 +59,13 @@ function Home() {
                price={1080.0}
                image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX335_.jpg"
                rating={4}
+            />
+             <Product 
+               id="123456"
+               title="Shopy Fashion Store Women Georgette Bollywood Designer Semi-Stitched Salwar Suit (SFS_ER11049_Peach_Free Size)"
+               price={700.0}
+               image="https://m.media-amazon.com/images/I/71Jm8dz1+8L._UL1500_.jpg"
+               rating={5}
             />
             </div>
 
